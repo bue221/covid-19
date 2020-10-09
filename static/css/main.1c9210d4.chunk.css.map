@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles.css"],"names":[],"mappings":"AAAA,EACQ,SAAU,CACV,QACR,CAEA,KACQ,eACR","file":"main.1c9210d4.chunk.css","sourcesContent":["*{\n        padding: 0;\n        margin: 0;\n}\n\n.nav {\n        background: blue;\n}\n"]}
