@@ -52,19 +52,21 @@ const App = ()=>{
                         <Nav />
                         <Container fluid>
                                 <Row>
-                                        <Col xl={2}>
-                                                <Paises onChange={paisForm} />
-                                        </Col>
-                                        <Col xl={8}>
-                                                <Graph pais={pais} data={data}/>
-                                        </Col>
-                                        <Col xl={2}>
-                                                <Info data={data}/>
-                                        </Col>
-                                </Row>
-                        </Container>
-                </div>
-                );
+                                        <Col xl={2} className="m-5 justify-content-md-center" style={{ 
+                                        display: 'flex',
+                                        flexDirection: 'column',
+                                        alignItems: 'center',
+                                        }}>
+                                        <Paises onChange={paisForm} />
+                                        <Info data={data}/>
+                                </Col>
+                                <Col xl={9}>
+                                        <Graph pais={pais} data={data}/>
+                                </Col>
+                        </Row>
+                </Container>
+        </div>
+        );
 }
 
 export default App;
